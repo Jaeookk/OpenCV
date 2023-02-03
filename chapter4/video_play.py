@@ -1,6 +1,6 @@
 import cv2
 
-# capture = cv2.VideoCapture("Image/big_buck.avi")
+# capture = cv2.VideoCapture("../Image/big_buck.avi")
 
 # while cv2.waitKey(33) < 0:
 #     if capture.get(cv2.CAP_PROP_POS_FRAMES) == capture.get(
@@ -15,7 +15,7 @@ import cv2
 # cv2.destroyAllWindows()
 
 
-video_file = "Image/big_buck.avi"  # 동영상 파일 경로
+video_file = "../Image/big_buck.avi"  # 동영상 파일 경로
 
 cap = cv2.VideoCapture(video_file)  # 동영상 캡쳐 객체 생성  ---①
 if cap.isOpened():  # 캡쳐 객체 초기화 확인
